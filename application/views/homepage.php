@@ -34,10 +34,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="subheading mb-4 fs-3 opacity-75">
                 S.Kom · Informatics Graduate
             </div>
-            <p class="lead mb-5">
-                Informatics graduate with hands-on experience in <strong>Fullstack Development</strong> and <strong>AI integration</strong> (GPA: 3.47).
+            <p class="lead mb-5"><strong>
+                Informatics graduate with hands-on experience in Fullstack Development and AI integration (GPA: 3.47).
                 Passionate about building scalable applications and leveraging AI technologies. Experienced in server-side logic,
-                responsive UI design, and bridging complex systems with user-friendly interfaces.
+                responsive UI design, and bridging complex systems with user-friendly interfaces.</strong>
             </p>
             <div class="social-icons mb-5">
                 <a class="social-icon" href="https://github.com/alfayulaswara" target="_blank"><i class="fab fa-github"></i></a>
@@ -150,7 +150,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <span class="badge-tech">MySQL</span>
                             </div>
                             <a href="https://klasifikasikode.my.id" target="_blank" class="btn btn-sm btn-outline-primary px-4 rounded-pill mb-1"><i class="fas fa-external-link-alt me-1"></i>Visit Link</a>
-                            <a href="#" class="btn btn-sm btn-outline-primary px-4 rounded-pill mb-1"><i class="fas fa-file-alt me-1"></i>Journal</a>
+                            <a href="assets/jurnal.pdf" target="_blank" class="btn btn-sm btn-outline-primary px-4 rounded-pill mb-1"><i class="fas fa-file-alt me-1"></i>Journal</a>
                             <a href="https://github.com/AlfaNgopi/klasifikator" target="_blank" class="btn btn-sm btn-outline-primary px-4 rounded-pill"><i class="fab fa-github me-1"></i>Github Repository</a>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="text-primary fw-bold mb-3">Group Project</div>
                             <p>Built a robust online marketplace with product management, secure authentication, and payment gateway simulation. Focused on responsive design and database optimization.</p>
                             <div class="d-flex flex-wrap mb-4">
-                                <span class="badge-tech">CodeIgniter</span>
+                                <span class="badge-tech">Laravel</span>
                                 <span class="badge-tech">JavaScript</span>
                                 <span class="badge-tech">Bootstrap</span>
                                 <span class="badge-tech">MySQL</span>
@@ -233,9 +233,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="p-4">
                             <h3 class="h4">Fullstack Web Application</h3>
                             <div class="text-primary fw-bold mb-3">Local Government (Pemda)</div>
-                            <p>Developing a comprehensive internal system for the regional inspectorate. Focused on data integrity, report generation, and multi-level user access control.</p>
+                            <p>Developing a comprehensive internal system for the news of regional inspectorate. Focused on UI design, accessibility, and multi-level user access control.</p>
                             <div class="d-flex flex-wrap mb-4">
-                                <span class="badge-tech">Laravel</span>
+                                <span class="badge-tech">Code Igniter</span>
                                 <span class="badge-tech">API Integration</span>
                                 <span class="badge-tech">Bootstrap</span>
                                 <span class="badge-tech">PostgreSQL</span>
