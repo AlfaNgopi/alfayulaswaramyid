@@ -61,45 +61,24 @@
             --sidebar-bg: #1a1d20;
             --section-padding: 6rem 2rem;
             --card-radius: 1.25rem;
-            /* Enhanced Texture Vars */
-            --bg-color: #d4d4d4;
-            --grid-color: rgba(13, 110, 253, 0.07);
-            --dot-color: rgba(13, 110, 253, 0.15);
+
         }
 
         body {
-            font-family: 'Inter', sans-serif;
-            color: #333;
-            background-color: var(--bg-color);
-            /* Complex Texture: Grid + Dots */
-            background-image: 
-                linear-gradient(var(--grid-color) 1.5px, transparent 1.5px),
-                linear-gradient(90deg, var(--grid-color) 1.5px, transparent 1.5px),
-                radial-gradient(var(--dot-color) 1px, transparent 1px);
-            background-size: 60px 60px, 60px 60px, 30px 30px;
-            background-position: 0 0, 0 0, 15px 15px;
-            overflow-x: hidden;
-            position: relative;
+            /* Layer 1: The Texture Image | Layer 2: The Color Gradient */
+            background-color: #e4e4e4;
+            /* background-color: #fffcfc; */
+            background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+            background-repeat: repeat;
+            /* Centering the background and allowing it to "overhang" the edges */
+            background-position: calc(50% + var(--move-x)) calc(50% + var(--move-y));
+            transition: background-position 0.2s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
         /* Animated Ambient background glow */
-        body::before {
-            content: "";
-            position: fixed;
-            top: -10%;
-            right: -10%;
-            width: 70vw;
-            height: 70vw;
-            background: radial-gradient(circle, rgba(13, 110, 253, 0.08) 0%, transparent 70%);
-            z-index: -1;
-            pointer-events: none;
-            animation: drift 20s infinite alternate ease-in-out;
-        }
 
-        @keyframes drift {
-            from { transform: translate(0, 0); }
-            to { transform: translate(-10%, 10%); }
-        }
+
+
 
         /* Scroll Progress Bar */
         #scroll-progress {
@@ -158,7 +137,8 @@
             top: 0;
             left: 0;
             z-index: 1030;
-            background: var(--sidebar-bg);
+            background-color: #000000;
+            background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
             border-right: 1px solid rgba(255, 255, 255, 0.05);
             display: flex;
             flex-direction: column;
@@ -385,5 +365,16 @@
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
+
+<script>
+    window.addEventListener('mousemove', (e) => {
+        // Calculate how far the mouse is from the center of the screen
+        const x = (window.innerWidth / 2 - e.clientX) / 50;
+        const y = (window.innerHeight / 2 - e.clientY) / 50;
+
+        document.body.style.setProperty('--move-x', x + 'px');
+        document.body.style.setProperty('--move-y', y + 'px');
+    });
+</script>
 
 </html>
