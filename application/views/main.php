@@ -63,6 +63,13 @@
             --card-radius: 1.25rem;
 
         }
+        /* for mobile devices */
+        @media (max-width: 768px) {
+            :root {
+                --section-padding: 0;
+                /* Or a smaller value like 10px */
+            }
+        }
 
         body {
             /* Layer 1: The Texture Image | Layer 2: The Color Gradient */
@@ -146,8 +153,8 @@
         }
 
         .main-content {
-            margin-left: 17rem;
-            width: calc(100% - 17rem);
+            left: 0;
+
         }
 
         .nav-link {
@@ -205,8 +212,9 @@
 
         .carousel-item img {
             height: 400px;
-            object-fit: cover;
+            object-fit: contain;
             transition: transform 0.5s ease;
+
         }
 
         .project-card:hover .carousel-item img {

@@ -26,7 +26,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- About Section -->
     <section class="resume-section" id="about">
-        <div class="resume-section-content">
+        <div class="resume-section-content mb-1">
             <div class="badge bg-primary px-3 py-2 mb-3 rounded-pill" style="letter-spacing: 2px;">AVAILABLE FOR HIRE</div>
             <h1 class="mb-0">
                 Alfa Nada <span class="text-primary">Yulaswara</span>
@@ -35,16 +35,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 S.Kom · Informatics Graduate
             </div>
             <p class="lead mb-5"><strong>
-                Informatics graduate with hands-on experience in Fullstack Development and AI integration (GPA: 3.47).
-                Passionate about building scalable applications and leveraging AI technologies. Experienced in server-side logic,
-                responsive UI design, and bridging complex systems with user-friendly interfaces.</strong>
+                    Informatics graduate with hands-on experience in Fullstack Development and AI integration (GPA: 3.47).
+                    Passionate about building scalable applications and leveraging AI technologies. Experienced in server-side logic,
+                    responsive UI design, and bridging complex systems with user-friendly interfaces.</strong>
             </p>
             <div class="social-icons mb-5">
-                <a class="social-icon" href="https://github.com/alfayulaswara" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://github.com/alfangopi" target="_blank"><i class="fab fa-github"></i></a>
                 <a class="social-icon" href="https://wa.me/6281234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a class="social-icon" href="mailto:alfayulaswara@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
-            <a href="#projects" class="btn btn-primary btn-custom px-5 py-3">View My Work <i class="fas fa-arrow-right ms-2"></i></a>
+            <a href="#projects" class="btn btn-primary btn-custom px-5 py-3 ">View My Work <i class="fas fa-arrow-right ms-2 "></i></a>
         </div>
     </section>
 
@@ -107,27 +107,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <hr class="m-0">
 
     <!-- Projects -->
-    <section class="resume-section" id="projects">
+    <section class="resume-section visible" id="projects">
         <div class="resume-section-content">
             <h2 class="mb-5">Featured Projects</h2>
 
             <!-- Project Card 1: Thesis -->
             <div class="project-card mb-5">
                 <div class="row g-0">
-                    <div class="col-lg-6">
+                    <div class="col-12 col-lg-6">
                         <div id="carouselThesis" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/project1/1.png" alt="Thesis Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Thesis+Project+UI'">
+                                    <img src="assets/project1/1.png" alt="Thesis Project" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project1/2.png" alt="Thesis Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=System+Flow'">
+                                    <img src="assets/project1/2.png" alt="Thesis Project" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project1/3.png" alt="Thesis Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Dashboard'">
+                                    <img src="assets/project1/3.png" alt="Thesis Project" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project1/4.png" alt="Thesis Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Results'">
+                                    <img src="assets/project1/4.png" alt="Thesis Project" class="d-block w-100" >
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselThesis" data-bs-slide="prev">
@@ -138,7 +138,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-12 col-lg-6">
                         <div class="p-4">
                             <h3 class="h4">AI-Driven Letter Classification</h3>
                             <div class="text-primary fw-bold mb-3">Thesis Project</div>
@@ -157,6 +157,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
             </div>
 
+
             <!-- Project Card 2: E-commerce -->
             <div class="project-card mb-5">
                 <div class="row g-0">
@@ -164,16 +165,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div id="carouselEcom" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/project2/1.png" alt="E-commerce" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=E-commerce+UI'">
+                                    <img src="assets/project2/1.png" alt="E-commerce" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project2/2.png" alt="E-commerce" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Products'">
+                                    <img src="assets/project2/2.png" alt="E-commerce" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project2/3.png" alt="E-commerce" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Cart'">
+                                    <img src="assets/project2/3.png" alt="E-commerce" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project2/4.png" alt="E-commerce" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Admin'">
+                                    <img src="assets/project2/4.png" alt="E-commerce" class="d-block w-100" >
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselEcom" data-bs-slide="prev">
@@ -209,16 +210,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div id="carouselPemda" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/project3/1.png" alt="Pemda Application" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Pemda+Web+1'">
+                                    <img src="assets/project3/1.png" alt="Pemda Application" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project3/2.png" alt="Pemda Application" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Pemda+Web+2'">
+                                    <img src="assets/project3/2.png" alt="Pemda Application" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project3/3.png" alt="Pemda Application" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Pemda+Web+3'">
+                                    <img src="assets/project3/3.png" alt="Pemda Application" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project3/4.png" alt="Pemda Application" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Pemda+Web+4'">
+                                    <img src="assets/project3/4.png" alt="Pemda Application" class="d-block w-100" >
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPemda" data-bs-slide="prev">
@@ -254,16 +255,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/project4/1.png" alt="Mobile Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Mobile+App+1'">
+                                    <img src="assets/project4/1.png" alt="Mobile Project" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project4/2.png" alt="Mobile Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Mobile+App+2'">
+                                    <img src="assets/project4/2.png" alt="Mobile Project" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project4/3.png" alt="Mobile Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Mobile+App+3'">
+                                    <img src="assets/project4/3.png" alt="Mobile Project" class="d-block w-100" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/project4/4.png" alt="Mobile Project" class="d-block w-100" onerror="this.src='https://via.placeholder.com/800x450?text=Mobile+App+4'">
+                                    <img src="assets/project4/4.png" alt="Mobile Project" class="d-block w-100" >
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
